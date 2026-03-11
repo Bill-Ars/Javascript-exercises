@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="titulo">Bem-vindo Dev</h1>
+    <button id="btn">Mudar Texto</button>
+
+
+    <script>
+        const titulo = document.querySelector('#titulo');
+        const botao = document.querySelector("#btn");
+
+        botao.addEventListener("click", function(){
+
+            titulo.textContent = "Agora o Javascript controlou o HTML"
+            titulo.style.color = "blue"
+
+            titulo.style.fontSize = "50px"
+
+            document.body.style.backgroundColor = "black"
+
+
+        })
+    </script>
+    
+</body>
+</html>

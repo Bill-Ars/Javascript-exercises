@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+   , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!--Crie um botão que: 
+muda o texto 
+muda a cor 
+muda o fundo da página 
+Tudo ao mesmo tempo.
+-->
+    
+</body>
+
+<h1 id="titulo">Ola, caro cliente!</h1>
+<button id="botao">Aceda a sua area</button>
+
+
+
+
+<script>
+
+    const titulo = document.querySelector("#titulo");
+    const botao = document.querySelector("#botao");
+
+
+      botao.addEventListener( "click", function(){
+
+    titulo.textContent = "Esta é a sua área de laboratórios, desfrute do melhor!"
+
+    titulo.style.color="orange"
+
+    document.body.style.backgroundColor="blue"
+
+      })
+    
+    
+
+
+</script>
+
+
+
+
+
+</html>
