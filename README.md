@@ -2,15 +2,15 @@
 
 Este repositório contém exercícios simples de **manipulação do DOM com JavaScript**.
 
-Os exercícios foram realizados como parte da minha prática durante o programa **DevX**, onde estou aprendendo conceitos fundamentais de desenvolvimento web.
+Os exercícios foram realizados como parte da minha prática durante o programa **DevX**, onde estou aprendendo fundamentos de desenvolvimento web.
 
-O objetivo é praticar como o JavaScript pode interagir com o HTML para:
+O objetivo é praticar como o JavaScript interage com o HTML para:
 
-* alterar textos na página
+* alterar textos
 * mudar cores e estilos
 * responder a eventos de clique
-* manipular elementos do DOM
+* manipular elementos da página
 
-Estes exercícios fazem parte do meu processo de aprendizagem em **JavaScript e desenvolvimento web**.
+Esses exercícios também fazem parte da minha **preparação para aprender React.js**, pois compreender o funcionamento do DOM é essencial antes de utilizar frameworks de frontend.
 
 
